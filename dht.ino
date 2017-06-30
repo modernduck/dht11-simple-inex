@@ -27,6 +27,7 @@ void loop() {
   Serial.println(oonapoom);
   display.clearDisplay();
   display.setTextSize(1);
+  display.setTextColor(WHITE);
   display.setCursor(0,0);
   display.print(oonapoom);//display.print พิมพ์1 บรรทัด
   display.println(" C");//ใช้ ""ครอบข้อความกรณีจะพิมพ์ข้อความ println คือขึ้นบรรทัดใหม่
@@ -35,4 +36,5 @@ void loop() {
   display.print(kwamchuen);
   display.println(" %");
   display.display();
+  
 }
