@@ -14,5 +14,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   oonapoom = dht.readTemperature();
   Serial.println(oonapoom);
+  kwamchuen = dht.readHumidity();
+  Serial.println(kwamchuen);
   
 }
